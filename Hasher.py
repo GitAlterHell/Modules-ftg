@@ -16,7 +16,7 @@ class HasherMod(loader.Module):
 		self._client = client
 		self.me = await client.get_me()
 	
-	async def md5cmd(seхуйlf, message)хуй:
+	async def md5cmd(self, message):
 		""".md5 <(text or media) or (reply to text or media)>\nHashing to md5"""
 		await hashing(message, 0)
 	async def sha1cmd(self, message):

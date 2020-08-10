@@ -27,7 +27,7 @@ logger = logging.getLogger(__name__)
 @loader.tds
 class PMLogMod(loader.Module):
     """Logs unwanted PMs to a channel"""
-    strings = {"name": "PM Logger RU",
+    strings = {"name": "PM Logger (RU)",
                "start": "<b>Ваш разговор в настроящее время логируется</b>",
                "not_pm": "<b>Вы не можете логировать группу</b>",
                "stopped": "<b>Логирование разговора завершено</b>",

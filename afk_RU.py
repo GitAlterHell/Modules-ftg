@@ -28,7 +28,7 @@ logger = logging.getLogger(__name__)
 @loader.tds
 class AFKMod(loader.Module):
     """Provides a message saying that you are unavailable"""
-    strings = {"name": "AFK_RU",
+    strings = {"name": "AFK (RU)",
                "gone": "<b>Я ушёл AFK...</b>",
                "back": "<b>Я больше не AFK!</b>",
                "afk": "<b>I'm AFK right now (since {} ago).</b>",
